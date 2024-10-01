@@ -1,0 +1,306 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    width : 100%;
+    height: auto;
+    margin: 2rem auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    /* padding: 2rem;
+    border: 0.5rem solid #e5e7eb; */
+    /* position: relative; */
+}
+
+.first-container{
+    padding-block-start: 96px;
+    padding-block-end: 64px;
+    padding-inline-start: 264px;
+    background-color: #fff;
+    border-bottom: 8px solid #999999
+}
+
+.first-container h3{
+    color: #1e1e1e;
+    font-weight: 800;
+    font-size: 32px;
+    margin-block-end: 48px;
+    font-family: Lato;
+}
+
+.first-container p{
+    width: 415px;
+    color: #1e1e1e;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-block-end: 16px;
+    font-family: Lato;
+}
+
+.green{
+    color: #009966;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.second-container-main{
+    padding-block-start: 72px;
+    padding-block-end: 66px;
+    padding-inline-start: 232px;
+    background-color: #666666;
+    ;
+}
+.second-container{
+    width: 800px;
+    height: 312px;
+    background-color: #fff;
+    padding: 24px 24px;
+    border-bottom: 8px solid #999999;
+    padding-block-start: 80px;
+    position: relative;
+}
+
+.second-container h3{
+    background-color: #FFBF00;
+    border-bottom: 8px solid #CC9900;
+    font-size: 24px;
+    font-weight: 800;
+    width: 398px;
+    height: 60px;
+    padding: 15px 32px;
+    font-family: Lato;
+    position: absolute;
+    top: 8px;
+    left: -10px;
+    right: 10px;
+    z-index: 1;
+
+}
+
+.second-container p{
+
+    width: 752px;
+    height: 120px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    margin-block-end: 8px;
+}
+
+
+
+
+@media screen and (max-width:1024px){
+    main{
+        width: 100%;
+        height: auto;
+        background-color: #f1f1f1;
+    }
+    
+    .first-container{
+        width: 100%;
+        height: auto;
+        padding-block-start: 96px;
+        padding-block-end: 64px;
+        padding-inline-start: 24px;
+        background-color: #fff;
+        border-bottom: 8px solid #999999
+    }
+    
+    
+    .second-container-main{
+        width: 100%;
+        padding-block-start: 72px;
+        padding-block-end: 66px;
+        padding-inline-start: 24px;
+        padding-inline-end: 24px;
+        background-color: #666666;
+        ;
+    }
+    .second-container{
+        width: 100%;
+        height: 312px;
+        background-color: #fff;
+        padding: 24px 24px;
+        border-bottom: 8px solid #999999;
+        padding-block-start: 80px;
+        position: relative;
+    }
+    
+
+}
+
+/* Tablet styles */
+@media screen and (max-width:768px){
+    main{
+        width: 100%;
+        height: auto;
+        background-color: #f1f1f1;
+    }
+    
+    .first-container{
+        width: 768px;
+        height: 382px;
+        padding-block-start: 96px;
+        padding-block-end: 64px;
+        padding-inline-start: 24px;
+        background-color: #fff;
+        border-bottom: 8px solid #999999
+    }
+    
+    
+    .second-container-main{
+        width: 776px;
+        padding-block-start: 72px;
+        padding-block-end: 66px;
+        padding-inline-start: 0;
+        background-color: #666666;
+        ;
+    }
+    .second-container{
+        width: 776px;
+        height: 312px;
+        background-color: #fff;
+        padding: 24px 24px;
+        border-bottom: 8px solid #999999;
+        padding-block-start: 80px;
+        position: relative;
+    }
+    
+
+}
+
+
+
+/* Mobile styles */
+@media screen and (max-width:430px){
+    main{
+        width: 100%;
+        height: auto;
+        background-color: #f1f1f1;
+    }
+    
+    .first-container{
+        width: 100%;
+        height: 382px;
+        padding-block-start: 96px;
+        padding-block-end: 64px;
+        padding-inline-start: 24px;
+        background-color: #fff;
+        border-bottom: 8px solid #999999
+    }
+
+    .first-container p{
+        width: 342px;
+        height: 60px;
+    }
+    
+    
+    .second-container-main{
+        width: 100%;
+        height: auto;
+        padding-block-start: 72px;
+        padding-block-end: 66px;
+        padding-inline-start: 0;
+        padding-inline-end: 0;
+        background-color: #666666;
+        ;
+    }
+    .second-container{
+        width: 100%;
+        height: 455px;
+        background-color: #fff;
+        padding: 24px 24px;
+        border-bottom: 8px solid #999999;
+        padding-block-start: 100px;
+        position: relative;
+    }
+
+    .second-container h3{
+        width: 318px;
+        height: 82px;
+
+    }
+
+    .second-container p{
+        width: 342px;
+        height: 240px;
+
+
+    }
+}
+
+@media screen and (max-width:360px){
+    main{
+        width: 100%;
+        height: auto;
+        background-color: #f1f1f1;
+    }
+    
+    .first-container{
+        width: 100%;
+        height: auto;
+        padding-block-start: 96px;
+        padding-block-end: 64px;
+        padding-inline-start: 24px;
+        background-color: #fff;
+        border-bottom: 8px solid #999999
+    }
+
+    .first-container p{
+        width: 342px;
+        height: 60px;
+    }
+    
+    
+    .second-container-main{
+        width: 100%;
+        height: auto;
+        padding-block-start: 72px;
+        padding-block-end: 66px;
+        padding-inline-start: 0;
+        padding-inline-end: 0;
+        background-color: #666666;
+        ;
+    }
+    .second-container{
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        padding: 24px 24px;
+        border-bottom: 8px solid #999999;
+        padding-block-start: 100px;
+        position: relative;
+    }
+
+    .second-container h3{
+        width: 318px;
+        height: 82px;
+
+    }
+
+    .second-container p{
+        width: 100%;
+        height: auto;
+
+
+    }
+}
